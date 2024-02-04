@@ -1,4 +1,4 @@
-import Background from "./Backgrounddone.jsx";
+import Background from "./backgrounddone.jsx";
 import { Link } from "react-router-dom";
 
 const Home = () => {
