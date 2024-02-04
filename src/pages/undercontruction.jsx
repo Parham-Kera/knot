@@ -1,5 +1,5 @@
 import underconstruction from "../underconstruction1.svg";
-import "../app.css";
+import "./pages.css";
 
 const Uc = () => {
   return (
