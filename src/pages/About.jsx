@@ -1,5 +1,5 @@
 import Uc from "./undercontruction.jsx";
-import "../app.css";
+import "./pages.css";
 
 const About = () => {
   return <Uc />;
