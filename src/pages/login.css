@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Kryshna";
+  src: local("Kryshna"), url("./assets/fonts/Kryshna.otf") format("OpenType");
+}
+
+.Form-card-header {
+  font-size: 40px;
+  color: #d54145;
+  font-family: "Kryshna";
+  text-align: center;
+}
+
+.Form-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  height: 100vh;
+}
+
+.Form-body {
+  background-color: #115b33;
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 24px #115b39;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Form-card-body-input {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+
+.Form-card-body-input input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border: 1px solid #d54145;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 30px;
+  outline: none;
+  background: none;
+  z-index: 1;
+  color: white;
+}
+
+::placeholder {
+  color: transparent;
+}
+
+.Form-card-body-input label {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  color: #dadce0;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+  opacity: 50%;
+  background-color: #115b33;
+}
+
+.submit {
+  /*display: block;*/
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
+
+  background-color: #d54145;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.submit:hover {
+  background-color: #a82f32;
+  transform: translateY(-2px);
+}
+
+.input:focus + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c0dc87;
+  opacity: 100%;
+}
+
+.input:focus {
+  border: 3px solid #d54145;
+}
+
+.input:not(:placeholder-shown) + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Form-card-body-submit {
+  display: inline;
+}
+.login {
+  color: #d54145;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 15px;
+}
+.error {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700px;
+}

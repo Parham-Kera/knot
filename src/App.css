@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Kryshna";
+  src: local("Kryshna"), url("./fonts/Kryshna.otf") format("OpenType");
+}
+
+body {
+  background-color: #c0dc87;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+/*home page styling*/
+.mainsec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: "Kryshna";
+  text-align: center;
+  font-size: 100px;
+  color: #d54145;
+}
+
+.uc-title {
+  font-family: "Kryshna";
+  text-align: center;
+  font-size: 90px;
+  color: #d54145;
+}
+
+.logo1 {
+  width: 50%;
+  height: 50%;
+}
+.words {
+  text-align: center;
+}
+.words h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+.button1 {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: #d54145;
+  border-radius: 15px;
+}
+
+/*Nav bar styling*/
+
+.nav_bar {
+  font-family: "Poppins", sans-serif;
+  margin-top: 0px;
+  font-size: 24px;
+  display: flex;
+  text-decoration: none;
+  background-color: #c0dc87;
+  align-items: center;
+}
+.nav_bar a {
+  text-decoration: none;
+  color: #d54145;
+  padding: 14px 16px;
+}
+
+.nav_itmes:hover {
+  background-color: #1a8447;
+}
+
+#sn {
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 10px 10px;
+  background-color: #c0dc87;
+}
+
+#sn:hover {
+  border-radius: 15px;
+  background-color: #1a8447;
+}
+
+.test {
+  background-color: red;
+}
+
+/*Logos for paralax background*/
